@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: brown;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#colorname {
+    width: 300px;
+    height: 40px;
+    background-color: black;
+    color: rgb(255, 252, 247);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#btn {
+    background-color: transparent;
+}
